@@ -39,6 +39,22 @@ else{
       return [...users].sort((a,b)=>a.sex.localeCompare(b.sex));    
   }
     console.log(getUsersSex(users));
+
+
+
+    const getUsersSex2_1=(users)=>{
+      return users.filter(user=>user.sex==='female');    
+  }
+    console.log(getUsersSex2_1(users));
+    
+    
+    const getUsersSex2=(users)=>{
+      return users.filter(user=>user.sex==='male');    
+  }
+    console.log(getUsersSex2(users));
+    
+
+
   /* 
     3. В массиве users найти пользователя по имени Марина
   */
